@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css" />
+        <title>Todo App</title>
+    </head>
+    <body>
+
+    <div class="container">
+        <h1 class="rainbow-text text-uppercase text-center my-2">Todo List App</h1>
+        <div class="row">
+            <div class="col-8 col-md-6 mx-auto mt-2">
+                <div class="card card-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="">Title</label>
+                            <input type="text" id="text" class="form-control text-capitalize" placeholder="add todo item">
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-2">Add</button>
+                    </form>
+                </div>
+                <div class="cards">
+                    <div class="card my-2">
+                        <div class="card-block ml-3 mr-2">
+                            <button id="delete" type="button" class="btn btn-danger float-right my-2">Delete</button>
+                            <button id="done" type="button" class="btn btn-success float-right my-2 mr-3">Done</button>
+                            <p class="card-title lead my-2">Learn Html</p>
+                        </div>
+                    </div> 
+                    <div class="card my-2">
+                        <div class="card-block ml-3 mr-2" style="padding: 5px;">
+                            <button id="delete" type="button" class="btn btn-danger float-right my-2">Delete</button>
+                            <button id="done" type="button" class="btn btn-success float-right my-2 mr-3">Done</button>
+                            <p class="card-title lead my-2">Learn CSS</p>
+                        </div>
+                    </div> 
+                </div>                                          
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
